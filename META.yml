@@ -1,0 +1,28 @@
+---
+abstract: 'Adds support for gitolite to gitalist'
+author:
+  - 'Gavin Mogan <halkeye@cpan.org>'
+build_requires: {}
+configure_requires:
+  ExtUtils::MakeMaker: 6.30
+dynamic_config: 0
+generated_by: 'Dist::Zilla version 4.300003, CPAN::Meta::Converter version 2.110930'
+license: perl
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+name: Gitalist-Git-CollectionOfRepositories-Gitolite
+no_index:
+  directory:
+    - t
+    - xt
+    - examples
+provides: {}
+requires:
+  File::Basename: 0
+  Gitalist: 0.003009
+  MooseX::Declare: 0.32
+resources:
+  homepage: https://github.com/halkeye/Gitalist-Git-CollectionOfRepositories-Gitolite
+  repository: https://github.com/halkeye/Gitalist-Git-CollectionOfRepositories-Gitolite.git
+version: 0.001
